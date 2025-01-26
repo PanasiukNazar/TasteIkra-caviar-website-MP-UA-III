@@ -521,9 +521,7 @@ Version:1.0
     .header .header-inner {
         display: none;
     }
-    .hero-slider {
-        height: 350px;
-    }
+
     .hero-slider .hero-text {
         margin-top: 60px;
     }
@@ -1252,9 +1250,7 @@ Version:1.0
     .header.shop .nav li .new {
         display: none !important;
     }
-    .hero-slider {
-        height: 350px;
-    }
+
     .hero-slider .hero-text {
         margin-top: 60px;
     }

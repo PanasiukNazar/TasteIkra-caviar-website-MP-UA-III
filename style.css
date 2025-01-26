@@ -55,6 +55,9 @@ Version:1.0
 .color-plate.active {
     right: 0;
 }
+body {
+    overflow-x: hidden;
+}
 .color-plate .color-plate-icon {
     position: absolute;
     left: -48px;
@@ -68,7 +71,6 @@ Version:1.0
     color: #333;
     top: 0;
     cursor: pointer;
-    box-shadow: -4px 0px 5px #5CC8D7FF00036;
 }
 .color-plate h4 {
     display: block;
