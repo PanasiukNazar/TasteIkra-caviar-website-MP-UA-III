@@ -311,8 +311,7 @@ Version:1.0
     border-bottom: 0px;
 }
 .header .nav li .dropdown li:hover a {
-    color: #fff;
-    background: #b1624eff;
+    color: #b1624eff;
 }
 .header .nav li .dropdown li a:hover {
     border-color: transparent;
@@ -1172,7 +1171,7 @@ Version:1.0
     visibility: visible;
 }
 .header.sticky .header-inner .nav li a {
-    color: #333;
+    color: #333 !important;
 }
 .header.sticky.v3 .header-inner .nav li a {
     color: #fff;
@@ -1773,7 +1772,8 @@ Version:1.0
 }
 .single-product .product-img a img {
     width: 100%;
-    height: 300px;
+    height: 400px;
+    object-fit: cover;
 }
 .single-product .product-img a img.hover-img {
     position: absolute;
